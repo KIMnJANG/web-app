@@ -25,8 +25,9 @@ export default function App() {
     const formData = new FormData();
     formData.append('file', img);
     // 서버의 upload API 호출
-    const res = await axios.post("http://localhost:5000/prediction", formData);
-    setResult(res.data.class_name)
+    const res = await axios.post("http://35.192.123.101/predict", formData);
+    
+    setResult(res.data)
     console.log(res)
     setLoading(false);
   }

@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: web-app
-        image: ssuwani/mnist_web-app
+        image: ssuwani/web-app:v0.1
         ports:
         - containerPort: 80
 
