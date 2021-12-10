@@ -102,8 +102,8 @@ export default function App() {
           <Typography variant="body1">
             코드는 아래의 사이트에서 확인할 수 있습니다!
           </Typography>
-          <Link color="inherit" href="https://github.com/ssuwani/mnist-classification-service">
-            mnist-classification-service
+          <Link color="inherit" href="https://github.com/KIMnJANG/web-app">
+            KIMnJANG Web App
           </Link>{' '}
         </Container>
       </Box>
