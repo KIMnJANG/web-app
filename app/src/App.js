@@ -25,7 +25,8 @@ export default function App() {
     const formData = new FormData();
     formData.append('file', img);
     // 서버의 upload API 호출
-    const res = await axios.post("predict", formData);
+    console.log(process.env.REACT_APP_SERVICE_HOST)
+    const res = await axios.post(process.env.REACT_APP_SERVICE_HOST + "/predict", formData);
     const i = res.data.indexOf(Math.max(...res.data));
     setResult(i)
     console.log(res)

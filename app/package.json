@@ -2,7 +2,7 @@
   "name": "create-react-app",
   "version": "5.0.0",
   "private": false,
-  "proxy": "http://35.192.123.101/",
+  "proxy": "http://35.192.123.101",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -14,6 +14,7 @@
     "@emotion/styled": "latest",
     "@mui/material": "latest",
     "axios": "^0.22.0",
+    "http-proxy-middleware": "^2.0.1",
     "react": "latest",
     "react-dom": "latest",
     "react-scripts": "latest"
