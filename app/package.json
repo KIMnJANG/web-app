@@ -2,6 +2,7 @@
   "name": "create-react-app",
   "version": "5.0.0",
   "private": true,
+  "proxy": "http://35.192.123.101/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
