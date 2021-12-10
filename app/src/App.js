@@ -15,10 +15,6 @@ export default function App() {
   const [result, setResult] = useState();
   const [loading, setLoading] = useState(false);
 
-  const instance = axios.create({
-    baseURL: 'http://35.192.123.101'
-  });
-
   const onChange = (e) => {
     setImg(e.target.files[0]);
     setImgurl(URL.createObjectURL(e.target.files[0]))
