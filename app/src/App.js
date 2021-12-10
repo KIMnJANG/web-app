@@ -24,7 +24,6 @@ export default function App() {
     setLoading(true);
     const formData = new FormData();
     formData.append('file', img);
-    console.log("바뀌옸니??")
     // 서버의 upload API 호출
     const res = await axios.post("predict", formData);
     const i = res.data.indexOf(Math.max(...res.data));
